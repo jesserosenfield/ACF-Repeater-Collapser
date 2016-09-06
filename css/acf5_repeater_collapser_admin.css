@@ -24,23 +24,23 @@
 	position: relative;
 }
 
-.field_type-flexible_content .layout.row-layout {
+.acf-flexible_content .layout.acf-table {
 	padding-left: 30px;
 	background: transparent;
 }
 
-.field_type-flexible_content .field-repeater-toggle-single {
+.acf-flexible_content .field-repeater-toggle-single {
 	position: absolute;
 	top: 50%;
 	margin-top: -15px;
 	left: 5px;
 }
 /* Weird positioning exception */
-.field_type-flexible_content .field_type-repeater .field-repeater-toggle-single {
+.acf-flexible_content .acf-repeater .field-repeater-toggle-single {
 	left: 8px;
 }
 
-.field_type-flexible_content .acf-fc-layout-handle {
+.acf-flexible_content .acf-fc-layout-handle {
 	background: #fff;
 }
 
@@ -70,7 +70,7 @@
 	position: relative;
 }
 
-.collapsed-row .acf-table tr {
+.collapsed-row .acf-fields {
 	display: none;
 }
 
